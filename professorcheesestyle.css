@@ -65,7 +65,7 @@ p {
     font-size: 48px;
 }
 
-/* Link Buttons and Download Buttons -------------------------------------------------------*/
+/* Link Buttons and Go Back Buttons -------------------------------------------------------*/
 
 .linkbutton {
     background-color: #6a329f;
@@ -81,7 +81,7 @@ p {
 .linkbutton:hover {
     background-color: #e3f233;
     color: #6a329f;
-    padding: 13px 25px;
+    padding: 13px 23px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -89,3 +89,4 @@ p {
     border-radius: 9999px; /* automatically creates a pill */
     border: 2px solid #6a329f;
 }
+
