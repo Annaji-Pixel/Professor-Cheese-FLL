@@ -118,22 +118,27 @@ header {
 @media (max-width: 768px) {
 
     header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+    display: flex;
+    flex-direction: column;      /* ALWAYS stack on mobile */
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
 
-    #logo {
-        width: 100px;
-        margin: 0 0 0.5rem 0;
-    }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
 
-    #websiteTitle {
-        font-size: 28px;
-        white-space: normal;
-        margin-bottom: 0.5rem;
-    }
+  #websiteTitle {
+    font-size: 28px;
+    white-space: normal;         /* allow wrapping, no jumping */
+  }
 
+  #logo {
+    width: 90px;
+    height: auto;
+  }
     ul {
         flex-direction: column;
         width: 100%;
